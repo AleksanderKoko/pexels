@@ -1,0 +1,24 @@
+{
+    "name": "Pexels",
+    "description" : "A plugin to include images from Pexels.com to your Sketch project",
+    "author" : "Aleksander Koko",
+    "authorEmail" : "aleksanderkoko@gmail.com",
+    "homepage": "https://github.com/AleksanderKoko/Pexels-Sketch",
+    "version" : "1.0",
+    "identifier" : "com.aleksanderkoko.pexels-sketch",
+    "compatibleVersion": "3.4",
+    "bundleVersion": "1",
+    "commands" : [
+        {
+            "script" : "pexel.js",
+            "shortcut" : "shift cmd p",
+            "name" : "Get Pixels",
+            "identifier" : "pexel"
+        }
+    ],
+    "menu" : {
+        "items" : [
+            "pexel"
+        ]
+    }
+}
